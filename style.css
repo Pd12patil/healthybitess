@@ -1,0 +1,126 @@
+body {
+  background-color: #fdf7f7;
+}
+.inear-gradient {
+  background-color: white;
+  padding: 20px;
+  border: #daa3ea 1px dotted;
+}
+
+.btn1 {
+  padding: 5px 10px;
+  background-image: linear-gradient(
+    to right top,
+    #d2539b,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1
+  );
+
+  border-radius: 10px;
+  border: 2px rgb(245, 243, 243) solid;
+}
+.box {
+  box-shadow: 10px 10px 14px 1px rgba(00, 00, 00, 0.2);
+}
+.box:hover {
+  box-shadow: 0px 0px 0px black;
+}
+.text-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.heading-font {
+  color: #d04d98;
+  text-shadow: 0.5px 0.5px 0px #52cffe;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading-font:hover {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 2s;
+}
+.text-decore {
+  text-decoration: none;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  color: #a422cb;
+  margin-right: 380px;
+  background-color: #a144bd;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.margin {
+  margin-left: 50px;
+}
+.text-align {
+  text-align: center;
+}
+.color {
+  color: #b978cd;
+}
+.font1 {
+  color: #ac3b61;
+  text-align: center;
+  font-size: 18px;
+}
+.font1:hover {
+  text-decoration-line: underline;
+}
+.bg-color {
+  background-color: white;
+}
+.font2 {
+  color: #ac3b61;
+  text-align: center;
+  font-size: 15px;
+}
+.font2:hover {
+  text-decoration-line: underline;
+}
+
+.linearGradient {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    hsl(204, 91%, 69%),
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+.fontred {
+  color: #ac3b61;
+}
+.card5 {
+  width: 290px;
+  height: 370px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.card5:hover {
+  border: #a1edfd solid 2px;
+  transition: 5s;
+}
